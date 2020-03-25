@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./starScript.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lulup52/npmCour1/issues"
   },
-  "homepage": "https://github.com/lulup52/npmCour1#readme"
+  "homepage": "https://github.com/lulup52/npmCour1#readme",
+  "dependencies": {
+    "chalk": "^3.0.0"
+  }
 }
